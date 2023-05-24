@@ -1,0 +1,17 @@
+Introduction to the above code:
+
+The provided code is a Python script that creates a graphical user interface (GUI) application for capturing screenshots using the PyAutoGUI
+library and the tkinter library for GUI components.
+
+When the code is executed, a window is displayed containing two buttons: "Take Screenshot" and "Quit". 
+
+Clicking the "Take Screenshot" button triggers the `screenshot()` function. 
+This function waits for 5 seconds to allow the user to switch to the desired screen. 
+It then captures a screenshot of the screen using PyAutoGUI's `screenshot()` function. 
+The screenshot is saved to a file with a unique name based on the current timestamp. 
+Finally, the screenshot is displayed using the default image viewer of the operating system.
+
+The "Quit" button, when clicked, terminates the application.
+
+Overall, this code provides a simple and user-friendly way to capture screenshots through a graphical interface, 
+allowing users to quickly save and view screen captures with just a few clicks.
