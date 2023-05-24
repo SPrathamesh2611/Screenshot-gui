@@ -1,0 +1,24 @@
+Certainly! Here's a brief summary of the libraries used in the provided code and their usage:
+
+1. **pyautogui:** PyAutoGUI is a cross-platform library used for programmatically controlling the mouse and keyboard. In this code, it is primarily used for capturing screenshots of the screen using the `screenshot()` function. The captured screenshot can be saved, manipulated, or displayed as needed.
+
+   Usage:
+   - `pyautogui.screenshot()`: Captures a screenshot of the entire screen or a specific region.
+   - `img.save(name)`: Saves the captured screenshot to a file with the specified name and format.
+   - `img.show()`: Displays the captured screenshot using the default image viewer of the operating system.
+
+2. **time:** The `time` library provides various functions for working with time-related operations. In the code, it is used to introduce a delay before capturing the screenshot. The `time.sleep(5)` function is used to pause the program execution for 5 seconds, allowing the user to switch to the desired screen.
+
+   Usage:
+   - `time.sleep(seconds)`: Pauses the program execution for the specified number of seconds.
+
+3. **tkinter:** Tkinter is a standard Python library for creating GUI applications. It provides a set of functions and classes to create windows, frames, buttons, and other GUI components. In the code, tkinter is used to create a simple GUI window with buttons for taking a screenshot and quitting the application.
+
+   Usage:
+   - `tk.Tk()`: Creates the main window of the GUI application.
+   - `tk.Frame(root)`: Creates a frame within the window to hold GUI components.
+   - `tk.Button(frame, text="...", command=...)`: Creates a button with the specified text and command callback function.
+   - `button.pack()`: Packs the button widget into the frame and makes it visible.
+   - `root.mainloop()`: Starts the GUI event loop to handle user interactions and update the GUI.
+
+These libraries provide essential functionality for capturing screenshots, introducing delays, creating GUI components, and managing user interactions in the Screen Capture Application.
